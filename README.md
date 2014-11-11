@@ -11,3 +11,9 @@ is.
 
 * plos_everything.json
 * plos_introductions.json
+
+## Loading into ES
+
+
+These datasets are formatted to be ready for bulk loading into Elasticsearch 
+via the [bulk API](http://www.elasticsearch.org/guide/en/elasticsearch/reference/current/docs-bulk.html)
