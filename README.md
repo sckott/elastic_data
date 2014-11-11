@@ -9,5 +9,5 @@ is.
 
 ## Datasets
 
-* plos_moredata.json
-* plos_intros.json
+* plos_everything.json
+* plos_introductions.json
