@@ -11,7 +11,14 @@ is.
 
 * `plos_everything.json`
 * `plos_introductions.json`
-* `geonames_elastic_bulk.zip`
+* `plos_data.json`
+* `geonames_elastic_bulk.zip` - too big for gitub, [at dropbox](https://www.dropbox.com/s/50ddvxmgikx5hze/geonames_elastic_bulk.zip?dl=0)
+* `gbif_data.json`
+* `gbif_geo.json`
+* `gbif_geopoint.json`
+* `gbif_geoshape.json`
+* `gbif_geosmall.json`
+* `shakespeare_data.json`
 
 ## Loading into ES
 
