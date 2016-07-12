@@ -1,11 +1,11 @@
 elastic datasets
 ================
 
-This is a collection of smallish datasets to use for playing with Elasticsearch. 
+This is a collection of smallish datasets to use for playing with Elasticsearch.
 
 You can only fit so much data in an R package. The R client for Elasticsearch we're
 making already has some data in it, but of course it's nice to have more, so here it
-is. 
+is.
 
 ## Datasets
 
@@ -19,10 +19,11 @@ is.
 * `gbif_geoshape.json`
 * `gbif_geosmall.json`
 * `shakespeare_data.json`
+* `omdb.json`
 
 ## Loading into ES
 
-These datasets are formatted to be ready for bulk loading into Elasticsearch 
+These datasets are formatted to be ready for bulk loading into Elasticsearch
 via the [bulk API](http://www.elasticsearch.org/guide/en/elasticsearch/reference/current/docs-bulk.html)
 
 ### geonames
@@ -53,7 +54,7 @@ should return
 #> [1] TRUE
 ```
 
-Note: the index type is `record`, and the index name is `geonames`. The index and index type were set in the json files. 
+Note: the index type is `record`, and the index name is `geonames`. The index and index type were set in the json files.
 
 Then use a for loop to load in each file. AKAIK there is a limit on the file size you can load in (let me know if there's a way to get around it), so that's why theres a bunch of json files instead of one big file.
 
