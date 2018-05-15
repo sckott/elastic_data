@@ -3,9 +3,11 @@ elastic datasets
 
 This is a collection of smallish datasets to use for playing with Elasticsearch.
 
-You can only fit so much data in an R package. The R client for Elasticsearch we're
-making already has some data in it, but of course it's nice to have more, so here it
-is.
+You can only fit so much data in an R package. The R client for Elasticsearch we maintain
+[elastic](https://github.com/ropensci/elastic) comes with some data, but of course 
+it's nice to have more, so here it is.
+
+See also [nodbi](https://github.com/ropensci/nodbi) for working with Elasticsearch from R.
 
 ## Datasets
 
